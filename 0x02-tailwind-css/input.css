@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@media (max-width: 768px) {
+  main {
+    display: grid !important ;  /* Ensure display is grid */
+    grid-template-columns: 1fr !important;
+  }
+}
