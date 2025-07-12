@@ -1,0 +1,12 @@
+# SASS Installation & Usage
+
+## 1. Prerequisite
+Install [Node.js](https://nodejs.org), then verify:
+```bash
+node -v
+npm -v
+
+npm install -g sass
+sass --version
+sass input.scss output.css
+sass --watch input.scss:output.css
